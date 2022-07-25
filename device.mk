@@ -29,6 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-zep
+    
+PRODUCT_PACKAGES += \
+    OnePlus8TPowerProfileOverlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
