@@ -31,7 +31,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-zep
     
 PRODUCT_PACKAGES += \
-    OnePlus8TPowerProfileOverlay
+    OnePlus8TPowerProfileOverlay \
+    OnePlus8TWifiOverlay \
+    OnePlus8TSettingsProviderOverlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
