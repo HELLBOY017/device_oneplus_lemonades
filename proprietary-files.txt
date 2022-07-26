@@ -41,13 +41,6 @@ odm/lib64/camera/com.qti_lemonades.sensor.imx471.so
 odm/lib64/camera/com.qti_lemonades.sensor.imx481.so
 odm/lib64/camera/com.qti_lemonades.sensor.imx586.so
 
-# Charger
-odm/bin/hw/vendor.oplus.hardware.charger@1.0-service
-odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_charger.xml
-odm/firmware/fastchg/20828/oplus_vooc_fw_rk826.bin
-odm/lib64/vendor.oplus.hardware.charger@1.0.so
-
 # Fingerprint
 odm/vendor/firmware/gfp9638.b00
 odm/vendor/firmware/gfp9638.b01
