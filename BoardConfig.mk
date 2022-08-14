@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/lemonades
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus8T,OnePlus9R,lemonades,kebab,lemonkebab
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
