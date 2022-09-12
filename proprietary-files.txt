@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 9R (LE2101_11.C.21).
+## from OnePlus 9R (LE2101_11.C.33).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -62,7 +62,6 @@ odm/vendor/firmware/gfp9678.b07
 odm/vendor/firmware/gfp9678.mdt
 
 # Iris
-odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
 odm/etc/inparm/irissoft/inParm.lst
 odm/etc/inparm/irissoft/inParm1_center.txt
 odm/etc/inparm/irissoft/inParm1_down.txt
@@ -100,6 +99,7 @@ odm/etc/inparm/irissoft/inParm17_up.txt
 odm/etc/inparm/irissoft/inParm18_center.txt
 odm/etc/inparm/irissoft/inParm18_down.txt
 odm/etc/inparm/irissoft/inParm18_up.txt
+odm/etc/inparm/irissoft/mcfCheck.txt
 odm/etc/irissoft.fw
 
 # Keymaster
