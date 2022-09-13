@@ -42,4 +42,4 @@ USE_PIXEL_CHARGER_IMAGES := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys
