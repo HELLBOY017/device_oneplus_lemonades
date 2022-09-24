@@ -21,25 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonades device
 $(call inherit-product, device/oneplus/lemonades/device.mk)
 
+# Inherit from the 404 configuration.
+$(call inherit-product, vendor/404/configs/common.mk)
+
 PRODUCT_NAME := lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2101
 
-PRODUCT_SYSTEM_NAME := OnePlus9R
-PRODUCT_SYSTEM_DEVICE := OnePlus9R
-
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-CUSTOM_BUILD_TYPE := Official
-TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GMS := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-USE_PIXEL_CHARGER_IMAGES := true
-TARGET_SUPPORTS_CALL_RECORDING := true
+# Set Boot Animination Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
 
+# Include GAPPS
+WITH_GAPPS := true
 
 BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys

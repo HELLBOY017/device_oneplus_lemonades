@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lemonades.mk
+    $(LOCAL_DIR)/p404_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    lemonades-user \
-    lemonades-userdebug \
-    lemonades-eng
+    p404_lemonades-user \
+    p404_lemonades-userdebug \
+    p404_lemonades-eng
