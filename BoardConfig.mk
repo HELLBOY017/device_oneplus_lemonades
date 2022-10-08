@@ -20,7 +20,7 @@
 DEVICE_PATH := device/oneplus/lemonades
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus8T,OnePlus9R,lemonades,kebab,lemonkebab
+TARGET_OTA_ASSERT_DEVICE := OnePlus8T,OnePlus9R,lemonades,kebab,lemonkebab,LE2100,LE2101,KB2000,KB2001,KB2003,KB2005,KB2007
 
 # Display
 TARGET_SCREEN_DENSITY := 450
