@@ -15,9 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lemonades.mk
-
-COMMON_LUNCH_CHOICES := \
-    lemonades-user \
-    lemonades-userdebug \
-    lemonades-eng
+    $(LOCAL_DIR)/flamingo_lemonades.mk

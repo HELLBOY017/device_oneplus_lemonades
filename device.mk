@@ -31,6 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-zep
     
 PRODUCT_PACKAGES += \
+    AlertSliderOverlay \
     OnePlus8TPowerProfileOverlay \
     OnePlus8TWifiOverlay \
     OnePlus8TSettingsProviderOverlay
